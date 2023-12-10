@@ -1,0 +1,12 @@
+﻿
+namespace Raiding.Models.Heroes;
+
+public class Paladin : Healer
+{
+    public Paladin(string name) : base(name)
+    {
+    }
+
+    public override int Power => 100;
+
+}
